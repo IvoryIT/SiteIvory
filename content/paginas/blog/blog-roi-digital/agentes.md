@@ -1,0 +1,40 @@
+# **Blog da Ivory IT**
+
+`Escrito em 07/out/2025`
+`Consulte outras postagens do blog [aqui](https://ivoryit.com.br/blog/)`
+
+## Produtividade com esteroides: Redefinindo o ROI digital
+
+**A transformação digital cansou. E, sejamos sinceros, ficou meio cara demais** 
+
+_Por Daniel Vidigal_
+
+---
+
+Transformação digital. Só de ouvir, já dá uma certa coceira. A expressão virou mantra corporativo, figurinha carimbada em apresentações de estratégia e, na prática, um daqueles termos que todo mundo usa, mas poucos conseguem explicar sem recorrer a palavras como “omnichannel” ou “futuro escalável”. A verdade é que, depois de mais de uma década prometendo reinventar o jeito como as empresas operam, a transformação digital ficou… meio cansada. E, sejamos honestos, bem mais cara do que deveria.
+
+---
+
+O que era para ser uma jornada ágil virou um projeto de três fases, sete squads e um ROI que, apesar de super bem diagramado em apresentações trimestrais, raramente aparece onde deveria: na prática. Ainda vemos sistemas robustos sendo implementados para resolver problemas que talvez nem existam mais. E soluções sofisticadas sendo ignoradas por quem deveria usá-las — geralmente porque elas não foram pensadas com essas pessoas em mente. 
+
+Depois de rodar alguns anos por esse labirinto, decidi que era hora de abordar o digital de forma menos dramática e mais útil. Foi assim que nasceu a Ivory, há pouco mais de uma década  — com a missão não declarada (mas muito sentida) de reduzir o ruído em torno da inovação e transformar tecnologia em coisa aplicável, e não apenas admirável. A ideia é simples: em vez de reinventar a roda, vamos fazer com que ela gire com menos atrito. 
+
+E foi nesse caminho que cruzamos com o low-code — mais especificamente, com o Mendix. Uma plataforma que, diferente de muitas outras por aí, não promete substituir desenvolvedores com uma varinha mágica, mas sim dar autonomia real às áreas que têm pressa, sem sacrificar a governança (nem o sono da TI).
+
+---
+
+A cereja do bolo? Colocar inteligência artificial no processo. Mas calma: não aquela IA que aparece em comerciais de banco sorrindo com voz robótica. Estamos falando de IA que trabalha de verdade — ajudando a estruturar dados, sugerir fluxos, automatizar processos e, às vezes, até entender melhor a lógica de negócio do que nós mesmos numa segunda-feira de manhã. 
+
+Só que — e esse é um grande porém — nada disso funciona se a gente começar pelo fim. E esse fim geralmente é a tecnologia. O que tentamos fazer aqui é o contrário: começar pelas perguntas que doem. O que está travando? Onde o tempo está indo embora? Que tipo de automação realmente ajuda — e qual só serve pra gerar mais demanda pro time de suporte? 
+
+Ao fazer isso, descobrimos que a verdadeira produtividade digital não é sobre fazer mais coisas. É sobre fazer as certas, de forma mais rápida, com menos ruído e mais clareza. É sobre sistemas que resolvem, e não confundem. E sobre construir junto com quem vai usar, e não apenas para quem vai aprovar o budget.
+
+---
+
+Chamamos isso de produtividade com esteroides — não porque é agressiva, mas porque dá um gás onde tudo parecia andar em câmera lenta. E no final das contas, não é sobre a ferramenta, nem sobre a tendência da vez. É sobre entregar. É sobre parar de empilhar frameworks e começar a fazer o básico funcionar bem. 
+
+Talvez a grande transformação digital que falta seja justamente essa: tirar o excesso de espetáculo e devolver à tecnologia a sua função original — ajudar a resolver problemas. De preferência, sem precisar de três ciclos de aprovação nem um dicionário de buzzwords. 
+
+Enquanto isso, seguimos aqui, tentando manter o digital um pouco mais humano. E o ROI, quem sabe, um pouco mais real.
+
+---

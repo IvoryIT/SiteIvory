@@ -1,0 +1,42 @@
+{
+  "name": "site-nextjs",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "verificar": "tsx scripts/verificar.mts",
+    "migracao:exportar": "node scripts/migracao/exportar-wp.mjs && node scripts/migracao/capturar-head.mjs",
+    "migracao:converter": "node scripts/migracao/converter.mjs"
+  },
+  "dependencies": {
+    "@mdx-js/mdx": "^3.1.1",
+    "gray-matter": "^4.0.3",
+    "image-size": "^2.0.4",
+    "next": "16.4.0",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "remark-gfm": "^4.0.1",
+    "turndown": "^7.2.4",
+    "turndown-plugin-gfm": "^1.0.2",
+    "zod": "^4.6.5"
+  },
+  "devDependencies": {
+    "@tailwindcss/turbopack": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "@types/turndown": "^5.0.6",
+    "eslint": "^9",
+    "eslint-config-next": "16.4.0",
+    "pixelmatch": "^8.0.0",
+    "playwright": "^1.63.0",
+    "pngjs": "^7.0.0",
+    "tailwindcss": "^4",
+    "tsx": "^4.23.15",
+    "typescript": "^5"
+  }
+}

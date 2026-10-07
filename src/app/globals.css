@@ -1,0 +1,170 @@
+@import "tailwindcss";
+
+/*
+ * Tokens do design system da Ivory. Valores medidos no site WordPress (estilos computados),
+ * não no kit do Elementor, que o site real quase não usa (ver docs/design-system.md).
+ * Componentes usam estas classes; cor ou fonte fora daqui é desvio de padrão.
+ */
+@theme {
+  --color-azul: #003d5b; /* primária: títulos, links, botões de contorno */
+  --color-texto: #242424; /* títulos escuros, rodapé inferior */
+  --color-corpo: #333333; /* texto corrido */
+  --color-laranja: #f35b04; /* botão de ação principal */
+  --color-creme: #ffeec2; /* faixas de destaque */
+  --color-fundo: #fff6df; /* fundo geral */
+  --color-fundo-cabecalho: #fdf5e1; /* cabeçalho depois de rolar */
+  --color-vinho: #861657; /* breadcrumbs */
+  --color-linha: #aaaaaa; /* divisores */
+  /* Paleta estendida (usada pontualmente no site atual). */
+  --color-areia: #eedcaf; /* fios dos motivos (Carreiras) */
+  --color-rosa-claro: #f4dee1; /* degradê dos indicadores (Como fazemos) */
+  --color-azul-claro: #c2daf2; /* degradê dos indicadores (Como fazemos) */
+  --color-preto: #020101;
+  --color-erro: #d63637; /* mensagens de erro do formulário */
+  /* Páginas legais: cores do tema Hello que o WordPress usava nesses documentos. */
+  --color-link-legal: #cc3366;
+  --color-link-legal-hover: #333366;
+  --color-borda-tabela: #dadada;
+  --color-cinza-claro: #efefef;
+
+  --font-sans: var(--font-poppins), "Poppins", sans-serif;
+  --font-hanken: var(--font-hanken-grotesk), "Hanken Grotesk", sans-serif;
+  --font-sistema: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+
+  --container-site: 1140px;
+
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 1025px;
+}
+
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+  }
+  body {
+    background-color: var(--color-fundo);
+    color: var(--color-corpo);
+    font-family: var(--font-sans);
+    font-size: 16px;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+  a {
+    color: var(--color-azul);
+    text-decoration: none;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  /* A âncora #contato fica abaixo do cabeçalho fixo. */
+  [id] {
+    scroll-margin-top: 120px;
+  }
+}
+
+@utility container-site {
+  width: min(var(--container-site), 100% - 20px);
+  margin-inline: auto;
+}
+
+/* Textura de ruído aplicada em todas as faixas do site. */
+@utility fundo-ruido {
+  background-image: url("/wp-content/uploads/2025/09/Noise-Texture-1.png.webp");
+  background-repeat: repeat;
+}
+
+/*
+ * Texto rico vindo do conteúdo (Markdown/MDX). Reproduz o editor de texto do Elementor:
+ * 1.1em sobre 16px, entrelinha 1.5, parágrafos com margem inferior de 0.9rem.
+ */
+@utility texto-rico {
+  font-size: 1.1em;
+  line-height: 1.5;
+  color: var(--color-corpo);
+
+  /* Como no Elementor, o último parágrafo também mantém a margem inferior. */
+  & p {
+    margin-block: 0 0.9rem;
+  }
+  & strong,
+  & b {
+    font-weight: 700;
+  }
+  & em,
+  & i {
+    font-style: italic;
+  }
+  & a {
+    color: var(--color-azul);
+    text-decoration: underline;
+  }
+  /* Listas sem margem própria, como no editor do Elementor (o espaço vem dos parágrafos). */
+  & ul,
+  & ol {
+    margin-block: 0;
+    padding-left: 2.5em;
+  }
+  & ul {
+    list-style: disc;
+  }
+  & ol {
+    list-style: decimal;
+  }
+  & h2,
+  & h3,
+  & h4 {
+    margin-block: 0 0.5rem;
+    line-height: 1.2;
+  }
+  & h2 {
+    font-size: 1.25em;
+    font-weight: 700;
+    font-style: italic;
+  }
+  & h3 {
+    font-size: 1.1em;
+    font-weight: 700;
+  }
+  /* Vem do <h5> do tema Hello nos artigos (20px, sempre em negrito no conteúdo); o espaço acima
+     foi medido no WordPress (8px de margem + 10px do invólucro do widget). */
+  & h4 {
+    margin-block: 18px 1rem;
+    font-size: 1.25rem;
+    font-weight: 700;
+  }
+  & blockquote {
+    margin: 0 0 0.9rem;
+    padding-left: 1em;
+    border-left: 3px solid var(--color-linha);
+  }
+  & table {
+    border-collapse: collapse;
+    margin-bottom: 0.9rem;
+  }
+  & th,
+  & td {
+    border: 1px solid var(--color-linha);
+    padding: 0.4em 0.6em;
+  }
+}
+
+/* Botões do site: contorno azul (padrão) e laranja cheio (ação principal). */
+@utility botao {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-style: italic;
+  line-height: 1;
+  border: 3px solid var(--color-azul);
+  border-radius: 18px;
+  padding: 12px 24px;
+  color: var(--color-azul);
+  transition:
+    background-color 0.2s,
+    color 0.2s;
+  &:hover {
+    background-color: var(--color-azul);
+    color: #fff;
+  }
+}

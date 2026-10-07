@@ -1,0 +1,302 @@
+[
+  {
+    "de": "/sitemap_index.xml",
+    "para": "/sitemap.xml"
+  },
+  {
+    "de": "/page-sitemap.xml",
+    "para": "/sitemap.xml"
+  },
+  {
+    "de": "/post-sitemap.xml",
+    "para": "/sitemap.xml"
+  },
+  {
+    "de": "/feed/",
+    "para": "/blog/"
+  },
+  {
+    "de": "/comments/feed/",
+    "para": "/blog/"
+  },
+  {
+    "de": "/cases-mineracao/",
+    "para": "/cases-de-sucesso-ivory/cases-mineracao/"
+  },
+  {
+    "de": "/solucoes-dados/",
+    "para": "/solucoes/solucoes-dados/"
+  },
+  {
+    "de": "/solucoes-outsourcing/",
+    "para": "/solucoes/solucoes-outsourcing/"
+  },
+  {
+    "de": "/solucoes-agents-ia/",
+    "para": "/solucoes/solucoes-agents-ia/"
+  },
+  {
+    "de": "/solucoes-ia-multimodal/",
+    "para": "/solucoes/solucoes-ia-multimodal/"
+  },
+  {
+    "de": "/solucoes-modern-work/",
+    "para": "/solucoes/solucoes-modern-work/"
+  },
+  {
+    "de": "/solucoes-cloud/",
+    "para": "/solucoes/solucoes-cloud/"
+  },
+  {
+    "de": "/solucoes-sap/",
+    "para": "/solucoes/solucoes-sap/"
+  },
+  {
+    "de": "/cases-construcao/",
+    "para": "/cases-de-sucesso-ivory/cases-construcao/"
+  },
+  {
+    "de": "/cases-logistica/",
+    "para": "/cases-de-sucesso-ivory/cases-logistica/"
+  },
+  {
+    "de": "/cases-marketplace/",
+    "para": "/cases-de-sucesso-ivory/cases-marketplace/"
+  },
+  {
+    "de": "/cases-engenharia/",
+    "para": "/cases-de-sucesso-ivory/cases-engenharia/"
+  },
+  {
+    "de": "/cases-industria/",
+    "para": "/cases-de-sucesso-ivory/cases-industria/"
+  },
+  {
+    "de": "/cases-educacao/",
+    "para": "/cases-de-sucesso-ivory/cases-educacao/"
+  },
+  {
+    "de": "/cases-energia/",
+    "para": "/cases-de-sucesso-ivory/cases-energia/"
+  },
+  {
+    "de": "/blog-lowcode-e-ia/",
+    "para": "/blog/blog-lowcode-e-ia/"
+  },
+  {
+    "de": "/blog-ia-segura-e-eficaz/",
+    "para": "/blog/blog-ia-segura-e-eficaz/"
+  },
+  {
+    "de": "/blog-roi-digital/",
+    "para": "/blog/blog-roi-digital/"
+  },
+  {
+    "de": "/blog-empresas-brasileiras/",
+    "para": "/blog/blog-empresas-brasileiras/"
+  },
+  {
+    "de": "/blog-potencial-ia/",
+    "para": "/blog/blog-potencial-ia/"
+  },
+  {
+    "de": "/blog-big-techs/",
+    "para": "/blog/blog-big-techs/"
+  },
+  {
+    "de": "/blog-regulacao-europeia/",
+    "para": "/blog/blog-regulacao-europeia/"
+  },
+  {
+    "de": "/blog-logistica-urbana/",
+    "para": "/blog/blog-logistica-urbana/"
+  },
+  {
+    "de": "/blog-ia-na-logistica/",
+    "para": "/blog/blog-ia-na-logistica/"
+  },
+  {
+    "de": "/blog-futuro-do-trabalho/",
+    "para": "/blog/blog-futuro-do-trabalho/"
+  },
+  {
+    "de": "/blog-liderancas-em-setores/",
+    "para": "/blog/blog-liderancas-em-setores/"
+  },
+  {
+    "de": "/blog-dados-desperdicados/",
+    "para": "/blog/blog-dados-desperdicados/"
+  },
+  {
+    "de": "/blog-roubo-do-seculo/",
+    "para": "/blog/blog-roubo-do-seculo/"
+  },
+  {
+    "de": "/blog-data-mesh/",
+    "para": "/blog/blog-data-mesh/"
+  },
+  {
+    "de": "/blog-record-news/",
+    "para": "/blog/blog-record-news/"
+  },
+  {
+    "de": "/blog-tarifa-e-tecnologia/",
+    "para": "/blog/blog-tarifa-e-tecnologia/"
+  },
+  {
+    "de": "/blog-personalizacao-dados/",
+    "para": "/blog/blog-personalizacao-dados/"
+  },
+  {
+    "de": "/blog-jogo-da-ia/",
+    "para": "/blog/blog-jogo-da-ia/"
+  },
+  {
+    "de": "/blog-reforma-agro/",
+    "para": "/blog/blog-reforma-agro/"
+  },
+  {
+    "de": "/blog-banquete-miojo/",
+    "para": "/blog/blog-banquete-miojo/"
+  },
+  {
+    "de": "/blog-guerra-fria-ia/",
+    "para": "/blog/blog-guerra-fria-ia/"
+  },
+  {
+    "de": "/blog-disciplina-sem-desculpa/",
+    "para": "/blog/blog-disciplina-sem-desculpa/"
+  },
+  {
+    "de": "/blog-lula-e-trump/",
+    "para": "/blog/blog-lula-e-trump/"
+  },
+  {
+    "de": "/blog-metanol-no-copo/",
+    "para": "/blog/blog-metanol-no-copo/"
+  },
+  {
+    "de": "/blog-ciberseguranca/",
+    "para": "/blog/blog-ciberseguranca/"
+  },
+  {
+    "de": "/blog-automacao-inteligente/",
+    "para": "/blog/blog-automacao-inteligente/"
+  },
+  {
+    "de": "/blog-process-mining/",
+    "para": "/blog/blog-process-mining/"
+  },
+  {
+    "de": "/blog-uber-motz/",
+    "para": "/blog/blog-uber-motz/"
+  },
+  {
+    "de": "/blog-lider-futuro/",
+    "para": "/blog/blog-lider-futuro/"
+  },
+  {
+    "de": "/blog-piloto-ia/",
+    "para": "/blog/blog-piloto-ia/"
+  },
+  {
+    "de": "/blog-queda-aws/",
+    "para": "/blog/blog-queda-aws/"
+  },
+  {
+    "de": "/blog-consultoria-copilot/",
+    "para": "/blog/blog-consultoria-copilot/"
+  },
+  {
+    "de": "/blog-automacao-empresarial/",
+    "para": "/blog/blog-automacao-empresarial/"
+  },
+  {
+    "de": "/blog-sistema-legado/",
+    "para": "/blog/blog-sistema-legado/"
+  },
+  {
+    "de": "/blog-cop30/",
+    "para": "/blog/blog-cop30/"
+  },
+  {
+    "de": "/blog-teslafalha/",
+    "para": "/blog/blog-teslafalha/"
+  },
+  {
+    "de": "/blog-lowcode-com-ia/",
+    "para": "/blog/blog-lowcode-com-ia/"
+  },
+  {
+    "de": "/blog-tour-de-france/",
+    "para": "/blog/blog-tour-de-france/"
+  },
+  {
+    "de": "/blog-era-produtividade/",
+    "para": "/blog/blog-era-produtividade/"
+  },
+  {
+    "de": "/blog-cnpj-alfanumerico/",
+    "para": "/blog/blog-cnpj-alfanumerico/"
+  },
+  {
+    "de": "/blog-tendencias26/",
+    "para": "/blog/blog-tendencias26/"
+  },
+  {
+    "de": "/blog-quem-manda-ia/",
+    "para": "/blog/blog-quem-manda-ia/"
+  },
+  {
+    "de": "/blog-ia-inovacao/",
+    "para": "/blog/blog-ia-inovacao/"
+  },
+  {
+    "de": "/blog-gigante-logistico/",
+    "para": "/blog/blog-gigante-logistico/"
+  },
+  {
+    "de": "/blog-gigante-tms/",
+    "para": "/blog/blog-gigante-tms/"
+  },
+  {
+    "de": "/blog-dados-fragmentados/",
+    "para": "/blog/blog-dados-fragmentados/"
+  },
+  {
+    "de": "/blog-sap-btp/",
+    "para": "/blog/blog-sap-btp/"
+  },
+  {
+    "de": "/blog-logistica-futuro/",
+    "para": "/blog/blog-logistica-futuro/"
+  },
+  {
+    "de": "/blog-ia-sabe-mais/",
+    "para": "/blog/blog-ia-sabe-mais/"
+  },
+  {
+    "de": "/blog-moltbook/",
+    "para": "/blog/blog-moltbook/"
+  },
+  {
+    "de": "/blog-ia-problemas-matematicos/",
+    "para": "/blog/blog-ia-problemas-matematicos/"
+  },
+  {
+    "de": "/blog-agentic-governance/",
+    "para": "/blog/blog-agentic-governance/"
+  },
+  {
+    "de": "/blog-decisoes-automatizadas/",
+    "para": "/blog/blog-decisoes-automatizadas/"
+  },
+  {
+    "de": "/blog-auditoria-agentes-ia/",
+    "para": "/blog/blog-auditoria-agentes-ia/"
+  },
+  {
+    "de": "/blog-responsabilidade-legal/",
+    "para": "/blog/blog-responsabilidade-legal/"
+  }
+]

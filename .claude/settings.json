@@ -1,0 +1,60 @@
+{
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Write|Edit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"${CLAUDE_PROJECT_DIR}/.claude/hooks/verificar-pagina.mjs\"",
+            "timeout": 120,
+            "statusMessage": "Verificando conteúdo e SEO da página..."
+          }
+        ]
+      }
+    ],
+    "PreToolUse": [
+      {
+        "matcher": "Bash|PowerShell",
+        "hooks": [
+          {
+            "type": "command",
+            "if": "Bash(git commit *)",
+            "command": "node \"${CLAUDE_PROJECT_DIR}/.claude/hooks/antes-de-publicar.mjs\"",
+            "timeout": 180,
+            "statusMessage": "Verificando todas as páginas antes do commit..."
+          },
+          {
+            "type": "command",
+            "if": "Bash(git push *)",
+            "command": "node \"${CLAUDE_PROJECT_DIR}/.claude/hooks/antes-de-publicar.mjs\"",
+            "timeout": 180,
+            "statusMessage": "Verificando todas as páginas antes do push..."
+          },
+          {
+            "type": "command",
+            "if": "PowerShell(git commit *)",
+            "command": "node \"${CLAUDE_PROJECT_DIR}/.claude/hooks/antes-de-publicar.mjs\"",
+            "timeout": 180,
+            "statusMessage": "Verificando todas as páginas antes do commit..."
+          },
+          {
+            "type": "command",
+            "if": "PowerShell(git push *)",
+            "command": "node \"${CLAUDE_PROJECT_DIR}/.claude/hooks/antes-de-publicar.mjs\"",
+            "timeout": 180,
+            "statusMessage": "Verificando todas as páginas antes do push..."
+          },
+          {
+            "type": "agent",
+            "if": "Bash(git commit *)",
+            "model": "claude-sonnet-5-5",
+            "timeout": 240,
+            "statusMessage": "Claude revisando o SEO das páginas do commit...",
+            "prompt": "Você é o revisor de SEO do site ivoryit.com.br (Next.js; páginas em content/paginas/**/index.mdx, com agentes.md ao lado). Um commit está prestes a acontecer. Entrada do hook: $ARGUMENTS\n\n1. Rode `git diff --cached --name-only --diff-filter=AM -- content/paginas` para listar as páginas novas ou alteradas no commit. Se não houver nenhuma, responda imediatamente {\"ok\": true}.\n2. Leia a rubrica em .claude/skills/revisar-seo/references/rubrica-seo.md.\n3. Para cada index.mdx listado, leia o arquivo (cabeçalho com seo.titulo, seo.descricao, seo.palavraChave; corpo em MDX) e o agentes.md da mesma pasta, se existir. Para páginas alteradas, foque no que mudou (`git diff --cached -- <arquivo>`).\n4. Avalie SOMENTE pelos critérios da rubrica. As regras mecânicas (tamanho de título/descrição, links, imagens, H1) já foram checadas por outro hook: não as repita.\n5. Bloqueie apenas se houver item GRAVE da rubrica. Itens IMPORTANTES não bloqueiam.\n\nResponda apenas com JSON: {\"ok\": true} quando não houver item grave; ou {\"ok\": false, \"reason\": \"<em português: arquivo, problema grave encontrado com o trecho e a correção sugerida>\"}."
+          }
+        ]
+      }
+    ]
+  }
+}
