@@ -88,7 +88,8 @@ export function FormularioContato({
     const payload: Record<string, string> = {
       campaign_id: CAMPANHA,
       formulario_id: variante === "com-area" ? "342" : "5854",
-      pagina_titulo: document.title,
+      // Nome da página (título do post no WordPress), como o plugin antigo enviava; vira o título do deal.
+      pagina_titulo: document.querySelector<HTMLMetaElement>('meta[name="ivory:pagina"]')?.content || document.title,
       pagina_url: window.location.href,
     };
     if (document.referrer) payload.url_referer = document.referrer;

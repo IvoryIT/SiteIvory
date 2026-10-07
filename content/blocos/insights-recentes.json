@@ -1,5 +1,11 @@
 [
   {
+    "caminho": "/blog/agentic-readiness-agentes-de-ia/",
+    "imagem": "/imagens/2026/10/agentic-readiness-capa-mobile.webp",
+    "imagemAlt": "Órbitas concêntricas sobre fundo azul, identidade visual do Agentic Readiness da Ivory",
+    "titulo": "Agentic Readiness: a TI ganhou um novo tipo de usuário"
+  },
+  {
     "caminho": "/blog/blog-queda-aws/",
     "imagem": "/wp-content/uploads/2026/07/image-18.png",
     "imagemAlt": "imagem com logo da AWS",
@@ -18,11 +24,5 @@
     "imagem": "/wp-content/uploads/2026/07/Group-538.png",
     "imagemAlt": "imagem com ícone da copilot",
     "titulo": "Copilot: a IA que acelera o trabalho sem substituir o humano"
-  },
-  {
-    "caminho": "/blog/blog-automacao-empresarial/",
-    "imagem": "/wp-content/uploads/2025/09/image-3-2.png",
-    "imagemAlt": "",
-    "titulo": "Automação Empresarial: o ponto de virada da eficiência digital"
   }
 ]
