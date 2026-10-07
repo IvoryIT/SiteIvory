@@ -35,6 +35,9 @@ export function metadadosDaPagina(p: Pagina): Metadata {
       ...(ehArtigo ? { publishedTime: d.publicadoEm.toISOString(), modifiedTime: (d.atualizadoEm ?? d.publicadoEm).toISOString() } : {}),
     },
     twitter: { card: "summary_large_image", title: d.seo.titulo, description: d.seo.descricao, images: [imagem] },
+    // Nome da página lido por FormularioContato (vira `pagina_titulo` no motor de score e o
+    // título do deal no Pipedrive). É o título do post no WordPress, que o plugin antigo enviava.
+    other: { "ivory:pagina": d.breadcrumb ?? d.titulo },
   };
 }
 
