@@ -1,13 +1,14 @@
 import { site } from "@/lib/site";
 
 /**
- * Botão flutuante do WhatsApp no canto inferior direito de todas as páginas (no WordPress vinha
- * do pop-up do RD Station). Link simples: o GTM mede o clique com um gatilho de clique em link.
+ * Botão flutuante do WhatsApp no canto inferior direito de todas as páginas, com a mensagem pronta
+ * do antigo pop-up do RD Station (que também pedia nome, e-mail e telefone antes; aqui não há
+ * formulário). Link simples: o GTM mede o clique com um gatilho de clique em link.
  */
 export function BotaoWhatsapp() {
   return (
     <a
-      href={site.whatsappAtendimento}
+      href={`${site.whatsappAtendimento}?text=${encodeURIComponent(site.whatsappMensagem)}`}
       target="_blank"
       rel="noopener noreferrer"
       aria-label="Fale com a Ivory pelo WhatsApp"
