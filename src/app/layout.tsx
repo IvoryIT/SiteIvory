@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from "next";
 import { Hanken_Grotesk, Poppins } from "next/font/google";
 import { Consentimento } from "@/components/consentimento/Consentimento";
 import { Medicao } from "@/components/consentimento/Medicao";
+import { BotaoWhatsapp } from "@/components/layout/BotaoWhatsapp";
 import { Cabecalho } from "@/components/layout/Cabecalho";
 import { Rodape } from "@/components/layout/Rodape";
 import { site } from "@/lib/site";
@@ -48,6 +49,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         <Cabecalho />
         <main>{children}</main>
         <Rodape />
+        <BotaoWhatsapp />
         <Consentimento medir={MEDIR} />
       </body>
     </html>

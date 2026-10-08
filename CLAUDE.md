@@ -48,7 +48,7 @@ publicado na Vercel. Responder sempre em português do Brasil.
 Tokens em `src/app/globals.css` (`@theme`): `azul` #003D5B, `texto` #242424, `corpo` #333333,
 `laranja` #F35B04, `creme` #FFEEC2, `fundo` #FFF6DF, `vinho` #861657, `linha` #AAAAAA. Paleta
 estendida, de uso pontual herdado do site antigo: `areia`, `rosa-claro`, `azul-claro`, `preto`,
-`erro` e as cores das páginas legais (`link-legal`, `borda-tabela`, `cinza-claro`). Exceção
+`erro`, `whatsapp` (botão flutuante) e as cores das páginas legais (`link-legal`, `borda-tabela`, `cinza-claro`). Exceção
 documentada: o banner de cookies imita o visual do Complianz e usa cores próprias.
 Fonte Poppins (itálico é marca do site em títulos, menu e botões). Container de 1140px
 (`container-site`). Breakpoints do Elementor: celular < 768px, tablet 768–1024px, desktop ≥ 1025px

@@ -9,6 +9,8 @@ export const site = {
     "Desenvolvimento de software com IA agêntica no Brasil para automatizar processos, integrar sistemas e impulsionar o crescimento das empresas.",
   logo: "/wp-content/uploads/2025/09/logo.png",
   whatsapp: "https://wa.me/5511976009997",
+  // Botão flutuante do WhatsApp (no WordPress vinha do pop-up do RD Station).
+  whatsappAtendimento: "https://wa.me/553195040450",
   telefone: "+55 (31) 2552-1605",
   emailCurriculos: "genteegestao@ivoryit.com.br",
   redes: [
