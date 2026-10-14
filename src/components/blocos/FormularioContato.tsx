@@ -22,12 +22,17 @@ const UTMS = ["utm_source", "utm_medium", "utm_campaign", "utm_content"] as cons
  * de PIPEDRIVE_CUSTOM_FIELD_UTM_SOURCE em produção). Valor fora da lista derruba o deal no motor
  * (PipedriveAdapter repassa o valor cru), então segue em `<utm>_original`, que só a análise e a
  * tabela Leads leem. Mesma regra do plugin ivory-motor-score e do scoring_prompt da campanha
- * `site_institucional`. utm_medium ainda não tem options levantadas: vai sempre como original.
- * Criou uma option nova no Pipedrive? Inclua aqui no mesmo dia.
+ * `site_institucional`. Criou uma option nova no Pipedrive? Inclua aqui no mesmo dia.
+ * utm_medium ainda não tem options levantadas; utm_campaign cai no campo de opções "Campanha"
+ * (as campanhas das LPs, como FinOps e Capacitação) e utm_content não tem destino conferido: os
+ * três vão sempre como original. Conferido no Pipedrive em 14/10/2026: um lead com
+ * utm_campaign=site-novo não virou deal e deixou 5 pessoas e organizações duplicadas.
  */
 const UTMS_PERMITIDAS: Partial<Record<(typeof UTMS)[number], string[]>> = {
   utm_source: ["meta", "linkedin", "lp"],
   utm_medium: [],
+  utm_campaign: [],
+  utm_content: [],
 };
 // Mesma regra de e-mail do motor (src/lib/validate.ts).
 const EMAIL_VALIDO = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
